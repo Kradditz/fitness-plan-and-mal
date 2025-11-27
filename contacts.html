@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitJourney | Contact</title>
+  <meta name="description" content="Get in touch for questions about workout plans or nutrition guidance.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <h1 class="site-title"><a href="index.html">FitJourney</a></h1>
+        </div>
+        <nav class="six columns" aria-label="Main navigation">
+          <ul class="nav-list u-pull-right">
+            <li><a href="plans.html">Plans</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Fill in the form below and we’ll pretend someone is reading it. This is a demo, but the validation is real.</p>
+
+        <form id="contactForm" novalidate>
+          <label for="name">Full Name</label>
+          <input class="u-full-width" type="text" id="name" required>
+
+          <label for="email">Email Address</label>
+          <input class="u-full-width" type="email" id="email" required>
+
+          <label for="address">Address</label>
+          <input class="u-full-width" type="text" id="address" required>
+
+          <label for="phone">Telephone Number</label>
+          <input class="u-full-width" type="tel" id="phone" required>
+
+          <label for="message">Message</label>
+          <textarea class="u-full-width" id="message" rows="4" required></textarea>
+
+          <input class="button-primary" type="submit" value="Send Message">
+
+          <div id="contactFeedback" class="result-box"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> FitJourney. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/form-validation.js"></script>
+</body>
+</html>

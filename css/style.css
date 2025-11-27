@@ -1,0 +1,75 @@
+/* Global */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+/* Header / nav */
+.header {
+  background: #111;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+.site-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+  background: #eceff1;
+}
+
+.hero h2 {
+  margin-bottom: 1rem;
+}
+
+.section {
+  padding: 3rem 0;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+/* Small helper for later JS outputs */
+.result-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
