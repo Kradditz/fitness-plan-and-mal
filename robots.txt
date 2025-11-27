@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-fitness-site-url.com/sitemap.xml
+Sitemap: https://kradditz.github.io/fitness-plan-and-mal/contact.html
+
